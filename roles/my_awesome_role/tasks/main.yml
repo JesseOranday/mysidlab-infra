@@ -1,5 +1,5 @@
 ---
-- name: Install vim, wget, and apache
+- name: Install vim, wget, htop, git, vsftp and apache
   yum:
     name: "{{ packages }}"
   vars:
