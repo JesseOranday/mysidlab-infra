@@ -5,8 +5,11 @@
   vars:
     packages:
     - vim
+    - htop
     - wget
     - httpd
+    - git
+    - vsftp
     - httpd-tools
 
 # Configure apache
