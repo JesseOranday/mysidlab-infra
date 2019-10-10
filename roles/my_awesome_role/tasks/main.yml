@@ -1,15 +1,13 @@
 ---
-- name: Install vim, wget, htop, git, vsftp and apache
+- name: Install vim, wget, git, and apache
   yum:
     name: "{{ packages }}"
   vars:
     packages:
     - vim
-    - htop
     - wget
     - httpd
     - git
-    - vsftp
     - httpd-tools
 
 # Configure apache
